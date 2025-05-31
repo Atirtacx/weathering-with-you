@@ -1,0 +1,61 @@
+:root {
+  --white-color: #fff;
+  --weather-background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  --search-background: #ebfffc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+}
+
+.card {
+  width: 90%;
+  max-width: 500px;
+  background: var(--weather-background);
+  color: var(--white-color);
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.exploratory {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exploratory input {
+  border: 0;
+  outline: 0;
+  background: var(--search-background);
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.exploratory button {
+  border: 0;
+  outline: 0;
+  background: var(--search-background);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.exploratory button img {
+  width: 20px;
+}
