@@ -8,10 +8,39 @@
   </head>
   <body>
     <div class="card">
+      <!-- Search Card Section Start-->
       <div class="search">
         <input type="text" placeholder="enter city name" spellcheck="false" />
         <button><img src="Assets/images/search.png" /></button>
       </div>
+      <!-- Search Card Section End -->
+
+      <!-- Main Weather Section Start  -->
+      <div class="weather">
+        <img src="Assets/images/rain.png" class="weather-icon" />
+        <h1 class="temp">29°C</h1>
+        <h2 class="city">Banjarmasin</h2>
+        <!-- Detail Weather Section Start -->
+        <div class="details">
+          <div class="col">
+            <img src="Assets/images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="Assets/images/wind.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+        <!-- Detail Weather Section End -->
+      </div>
+      <!-- Main Weather Section Start -->
     </div>
+    <script src="Assets/script.js"></script>
   </body>
 </html>
